@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import './App.css';
 
-const API_URL = 'http://localhost:5229/api/users'; // Adjust if your .NET port is different
+const API_URL = 'http://localhost:5229/api/users'; 
 
 function App() {
   const [users, setUsers] = useState([]);
